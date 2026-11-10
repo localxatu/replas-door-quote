@@ -1,5 +1,61 @@
 # PROJECT_STATUS — REPLAS DOOR
 
+## Trạng thái hiện tại sau khi người dùng upload v1.0 — 2026-11-10
+
+Mốc mã nguồn đã kiểm tra: 4b0e1ba5b98bf5c654cd2067544fee0d18819ef8 (main).
+Website: https://localxatu.github.io/replas-door-quote/
+
+**Đã có ứng dụng và dữ liệu trên GitHub; báo cáo khởi tạo bên dưới chỉ còn là
+lịch sử. Không dùng kết luận “chưa có mã nguồn” bên dưới làm trạng thái hiện tại.**
+
+### Những gì đã xác nhận
+
+- Người dùng đã thêm ứng dụng trong commit 3ae66c4 và bổ sung PDF/icon trong
+  1ef735e, 4b0e1ba. Giữ nguyên ứng dụng hiện tại để phát triển tiếp.
+- Có index.html, style.css, app.js, core.js, data.js, catalogue.js, images.js,
+  manifest.webmanifest, sw.js, icon, build.py, hướng dẫn và bộ test tính giá.
+- Có 5 PDF: docs/abs.pdf, docs/composite.pdf, docs/carbon.pdf,
+  docs/installation.pdf, docs/locks.pdf. Không còn cần yêu cầu gửi lại 5 file này.
+- Giao diện có ABS/Composite/Carbon, 16 mã màu, danh mục 136 dòng khóa,
+  cấu hình kích thước, phụ kiện, công lắp, vận chuyển và lập báo giá.
+- Mã có lưu localStorage, sao lưu/nhập JSON, xuất CSV và in/PDF.
+  Chưa chạy thử đầy đủ các chức năng xuất/nhập/in trong đợt kiểm tra nhanh này.
+
+### Kiểm tra thực tế ở bản đang public
+
+- Playwright/Chromium: trang trả HTTP 200, tiêu đề “REPLAS · Báo giá cửa”.
+- Không có lỗi JavaScript pageerror trong lượt mở trang, thêm cấu hình và reload.
+- Đã bấm “Thêm vào báo giá”: đơn hiển thị 1 cấu hình Composite 900×2200 mm,
+  tạm tính 4.140.000–4.190.000 đ theo dữ liệu mặc định của ứng dụng.
+- Đã chờ “Sẵn sàng offline”, ngắt mạng bằng Playwright rồi reload:
+  trang vẫn trả 200 và hiển thị giao diện cấu hình. Đây là thử nghiệm nhanh
+  trên Chromium, chưa thay thế kiểm thử toàn bộ quy trình offline trên điện thoại.
+- node tests/calculation.test.cjs: 49/49 kiểm tra đạt.
+- node --check app.js và core.js: đạt.
+- Test đạt xác nhận hành vi theo dữ liệu/test hiện tại; chưa xác nhận đã
+  đối chiếu độc lập toàn bộ giá và ảnh với mọi trang PDF/catalogue gốc.
+
+### Điểm còn cần đối chiếu, theo HUONG_DAN.txt hiện có
+
+- 6 ảnh Carbon / CAB 01–06 chưa có bảng quy đổi sang CB11/22/55/66/88/99.
+- Ảnh Ô kính 01–06 chưa có bảng đối chiếu đơn giá 201–206.
+- ABS 101 và 01 chưa có ảnh với nhãn đúng mã được xác nhận.
+- Giá bộ cửa 4 cánh; cách cộng giá sơn Composite; công cửa đôi/xếp;
+  VAT công lắp và phụ kiện/bản lề ABS/Carbon còn cần xác nhận theo trường hợp.
+- Repo có ảnh đóng gói trong images.js, nhưng chưa có các bản PDF catalogue
+  CATALOGUE REPLAS DOOR-v1.2.pdf, RPD_CPS01.pdf dưới dạng file riêng.
+  Chỉ yêu cầu cung cấp thêm khi cần đối chiếu nguồn hoặc các điểm chưa rõ.
+- Chưa thấy file bảng cước vận chuyển riêng; app có vùng miễn phí và cước nhập
+  tay đã xác nhận. Cần đối chiếu nguồn nếu muốn tự tính cước ngoài vùng.
+
+### Bước tiếp theo
+
+Tiếp nối v1.0 hiện có. Khi có yêu cầu phát triển, kiểm tra nhánh và thay đổi mới,
+đối chiếu dữ liệu nguồn cần thiết, rồi sửa đúng phạm vi; commit/push theo mốc và
+cập nhật báo cáo. Đợt này chỉ cập nhật tài liệu trạng thái, không sửa mã ứng dụng.
+
+## Lịch sử: báo cáo trước khi mã ứng dụng được upload
+
 Cập nhật: 2026-11-10 (UTC).
 Repository: https://github.com/localxatu/replas-door-quote
 Giai đoạn: kiểm tra và khôi phục đầu vào; chưa lập trình ứng dụng.
