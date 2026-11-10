@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#164b3c">
+  <meta name="description" content="Chọn cửa Composite, ABS, Carbon, phụ kiện và lập báo giá sơ bộ REPLAS. Hỗ trợ dùng offline.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>REPLAS · Báo giá cửa</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand" aria-label="REPLAS trang chủ"><span class="brandmark">R</span><span>REPLAS<small>BÁO GIÁ CỬA</small></span></a>
+    <nav aria-label="Điều hướng chính"><button class="nav-item active" data-nav="quote">Lập báo giá</button><button class="nav-item" data-nav="saved">Đã lưu <span id="saved-count">0</span></button><button class="nav-item" data-nav="prices">Bảng giá</button></nav>
+    <button id="offline-status" class="status" data-action="offline-info" title="Trạng thái dùng offline"><i></i><span>Đang chuẩn bị</span></button>
+  </header>
+  <main id="app"></main><div id="mobile-summary" class="mobile-summary"></div>
+  <footer class="app-footer"><span>REPLAS DOOR <b>·</b> Công cụ báo giá sơ bộ</span><button data-action="help">Hướng dẫn sử dụng</button><span>v1.0 · Dữ liệu 10/11/2026</span></footer>
+  <div id="modal-root"></div><div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+  <script src="images.js"></script><script src="data.js"></script><script src="catalogue.js"></script><script src="core.js"></script><script src="app.js"></script>
+</body>
+</html>

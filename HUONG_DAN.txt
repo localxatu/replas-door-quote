@@ -1,0 +1,59 @@
+REPLAS - BÁO GIÁ CỬA v1.0
+
+DÙNG NGAY TRÊN MÁY TÍNH
+Mở file REPLAS_Bao_Gia_Offline.html bằng Chrome, Edge hoặc Safari.
+Ảnh, dữ liệu và công cụ tính đã có trong file. Bản HTML này được cung cấp riêng.
+
+DÙNG BẢN WEB / GITHUB PAGES
+1. Giải nén REPLAS_Bao_Gia_Web.zip.
+2. Tạo một repository public trên GitHub.
+3. Add file > Upload files. Upload toàn bộ nội dung đã giải nén, giữ thư mục docs.
+   File index.html phải nằm ngay ở thư mục gốc của repository.
+   Bộ web chỉ có khoảng 20 file: các ảnh đã được gom trong images.js.
+4. Settings > Pages > Build and deployment > Deploy from a branch.
+   Chọn nhánh main và thư mục /(root), rồi Save.
+5. Mở link GitHub Pages sau khi triển khai thành công.
+6. Lần đầu cần mạng: chờ dòng trạng thái “Sẵn sàng offline”.
+7. Trên iPhone: mở link trong Safari > Chia sẻ > Thêm vào màn hình chính.
+8. Mở app từ biểu tượng. Sau khi dữ liệu tải xong, có thể dùng khi mất mạng.
+
+LẬP BÁO GIÁ
+1. Chọn dòng cửa, kiểu mở, mẫu, mã màu và kích thước.
+2. Chọn khóa, phụ kiện và công lắp đặt.
+3. “Thêm vào báo giá” để đưa cấu hình vào đơn. Có thể thêm nhiều cấu hình.
+4. Nhập thông tin khách, công trình và vận chuyển cho cả đơn.
+5. “Lưu báo giá” lưu trên thiết bị. “In / lưu PDF” mở bản báo giá để in.
+6. “Xuất CSV” dùng với Excel. “Sao lưu JSON” dùng để chuyển/sao lưu báo giá.
+
+GIÁ VÀ THUẾ
+- Giá cửa đã bao gồm VAT theo tài liệu.
+- Khóa cộng VAT 10% theo bảng khóa.
+- Lắp đặt chưa VAT; tài liệu chưa ghi thuế suất. Nhập mức xác nhận hoặc giữ trống.
+- Công theo khoảng giá sẽ hiển thị khoảng; có thể nhập mức công đã xác nhận.
+- Phí vận chuyển cộng MỘT LẦN cho cả đơn. Ngoài vùng miễn phí: nhập cước xác nhận.
+- Bản lề Composite theo giá nguồn đã có trong bộ; không tự cộng thêm.
+- ABS/Carbon cần kiểm tra phụ kiện/bản lề trước khi chốt.
+- Không tự suy ra giá cho kích thước ngoài quy cách.
+
+NHỮNG PHẦN CHƯA ĐỦ DỮ LIỆU ĐỂ GHÉP CHẮC CHẮN
+- 6 ảnh Carbon giữ tên Mẫu 1-6. Catalogue ghi CAB 01-06, giá ghi CB11/CB22/CB55/CB66/CB88/CB99.
+  Chưa có bảng quy đổi ảnh sang mã CB. Chỉ chọn mã khi đã xác nhận.
+- Catalogue Ô kính 01-06 chưa có bảng đối chiếu với đơn giá 201-206.
+- ABS 101 và 01 chưa tìm được ảnh có nhãn đúng mã trong catalogue.
+- Chỉ có giá công cho cửa 4 cánh; giá bộ cửa phải nhập tay khi được xác nhận.
+- Giá sơn Composite chưa rõ là phụ thu hay cách cộng nào. Công cụ đánh dấu để xác nhận.
+- Công cửa đôi / cửa xếp chưa có dòng riêng: chọn công đã xác nhận.
+- Ảnh cửa minh họa kiểu dáng; màu đặt hàng ghi theo mã. Không tự đổi màu ảnh.
+
+DỮ LIỆU TRÊN THIẾT BỊ
+Báo giá đã lưu nằm riêng trên từng máy, không tự đồng bộ cho 3-4 người.
+Hãy sao lưu JSON trước khi xóa dữ liệu trình duyệt hoặc đổi máy.
+Mở web lúc có mạng để nhận bản cập nhật; không xóa dữ liệu trang khi đang cần dùng offline.
+Nếu trình duyệt đã xóa bản tải offline, cần mở lại lúc có mạng để tải đủ dữ liệu.
+
+NGUỒN
+composite.pdf, abs.pdf, carbon.pdf, khóa.pdf, lắp đặt.pdf;
+CATALOGUE REPLAS DOOR-v1.2.pdf, RPD_CPS01.pdf, 6 ảnh Carbon và ảnh bảng 16 màu.
+Các file PDF báo giá gốc nằm trong thư mục docs của gói ZIP, dùng được offline sau khi cache tải đủ.
+
+Đây là báo giá SƠ BỘ. Kiểm tra các ghi chú “Cần xác nhận” trước khi chốt với khách.
