@@ -3,7 +3,7 @@ import hashlib,re,zipfile,json
 
 ROOT=Path(__file__).resolve().parent
 DIST=ROOT/'dist' if (ROOT/'dist'/'core.js').exists() else ROOT
-files=['index.html','style.css','images.js','data.js','catalogue.js','core.js','app.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest']
+files=['index.html','style.css','images.js','data.js','catalogue.js','core.js','app.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest','logo-replas.png']
 files += sorted(str(p.relative_to(DIST)) for p in (DIST/'docs').glob('*.pdf'))
 fingerprint=hashlib.sha256(b''.join((DIST/p).read_bytes() for p in files)+Path(__file__).read_bytes()).hexdigest()[:12]
 sw="""/* REPLAS offline cache - generated from exact release files */
