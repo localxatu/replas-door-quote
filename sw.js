@@ -1,5 +1,5 @@
 /* REPLAS offline cache - generated from exact release files */
-const CACHE='replas-door-3253a22fcd55';
+const CACHE='replas-door-fc1a9fc6c9d0';
 const FILES=["./","index.html","style.css","images.js","data.js","catalogue.js","core.js","app.js","icon.svg","icon-192.png","icon-512.png","manifest.webmanifest","logo-replas.png","stamp-replas.png","docs/abs.pdf","docs/carbon.pdf","docs/composite.pdf","docs/installation.pdf","docs/locks.pdf"];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
