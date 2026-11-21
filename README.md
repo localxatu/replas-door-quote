@@ -26,7 +26,7 @@ Số lượng vật tư tính theo bộ/cánh rồi nhân số lượng cấu h�
 
 ## In / lưu PDF
 
-Bản in theo mẫu BẢNG BÁO GIÁ A4 (Times New Roman): tiêu đề công ty + logo, Số báo giá dạng D+MMDD-YY/RP, bảng STT / TÊN HÀNG / Hình ảnh / CRK-CCK-ĐDK / ĐVT / SL / ĐƠN GIÁ / THÀNH TIỀN / GHI CHÚ, dòng CỘNG, ghi chú + điều khoản thanh toán (tài khoản 8981188888, Ngân hàng TMCP Quân Đội - Chi Nhánh Bắc Sài Gòn) và khối liên hệ nhân viên kinh doanh. Tên, số điện thoại nhân viên và quà tặng kèm nhập ở mục Báo giá công trình; để trống thì khối liên hệ và dòng Tặng không hiện. Cột ĐDK trong file mẫu ghi “LR” (chưa rõ là hướng mở hay thông số khác) — web chưa có ô nhập tương ứng nên đang để “—”. Khoản chưa tính được giá hiện “Cần xác nhận” thay vì cộng dồn số thiếu.
+Bản in theo mẫu BẢNG BÁO GIÁ A4 (Times New Roman): tiêu đề công ty + logo, Số báo giá dạng D+MMDD-YY/RP, bảng STT / TÊN HÀNG / Hình ảnh / CRK-CCK-ĐDK / ĐVT / SL / ĐƠN GIÁ / THÀNH TIỀN / GHI CHÚ, dòng CỘNG, ghi chú + điều khoản thanh toán (tài khoản 8981188888, Ngân hàng TMCP Quân Đội - Chi Nhánh Bắc Sài Gòn) và khối liên hệ nhân viên kinh doanh. Tên, số điện thoại nhân viên và quà tặng kèm nhập ở mục Báo giá công trình; để trống thì khối liên hệ và dòng Tặng không hiện. Cột ĐDK trong file mẫu ghi “LR” (chưa rõ là hướng mở hay thông số khác) — web chưa có ô nhập tương ứng nên đang để “—”. Khoản chưa tính được giá hiện “Cần xác nhận” thay vì cộng dồn số thiếu. Các lưu ý nội bộ (VAT lắp đặt chưa có thuế suất, kiểm tra bản lề/phụ kiện) vẫn hiện trong app, không in lên PDF để khỏi mâu thuẫn với điều khoản chuẩn của công ty; mục nào chưa có giá vẫn in “Cần xác nhận”.
 
 ## Kiểm tra
 
