@@ -22,7 +22,7 @@ LẬP BÁO GIÁ
 2. Chọn khóa, phụ kiện và công lắp đặt.
 3. “Thêm vào báo giá” để đưa cấu hình vào đơn. Có thể thêm nhiều cấu hình.
 4. Nhập thông tin khách, công trình và vận chuyển cho cả đơn. Nhập tên và số điện thoại nhân viên kinh doanh, quà tặng kèm nếu có — in vào cuối file PDF.
-5. “Lưu báo giá” lưu trên thiết bị. “In / lưu PDF” mở bản báo giá theo mẫu BẢNG BÁO GIÁ (A4, Số D+MMDD-YY/RP) để in hoặc lưu PDF.
+5. “Lưu báo giá” lưu trên thiết bị. “In / lưu PDF” mở bản báo giá theo mẫu BẢNG BÁO GIÁ (A4, Số D+MMDD-YY/RP) để in hoặc lưu PDF — bấm xong chọn “Bảng báo giá sơ bộ” hoặc “Bảng báo giá”. Ô ĐDK ở mục Mẫu & thông số nhập tay cho từng cấu hình (mặc định LR).
 6. “Xuất CSV” dùng với Excel. “Sao lưu JSON” dùng để chuyển/sao lưu báo giá.
 
 GIÁ VÀ THUẾ
